@@ -1,0 +1,56 @@
+html {
+    background-image: url("../images/john-matychuk-gUK3lA3K7Yo-unsplash.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body {
+    font-family: serif, 'Times New Roman', Times;
+}
+
+.keys {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    min-height: 90vh;
+}
+
+.key {
+    border: 2px solid rgb(8, 76, 99);
+    border-radius: 6px;
+    min-width: 140px;
+    min-height: 100px;
+    padding-top: 40px;
+    background-color: rgba(0, 0, 0, 0.363);
+    box-shadow: 0px 0px 5px black;
+
+    transition: all 0.07s;
+}
+
+.playing {
+    min-width: 140px;
+    min-height: 100px;
+    padding-top: 40px;
+    transform: scale(1.1);
+    border: 3px solid #d1f218;
+    border-radius: 6px;
+    box-shadow: 0 0 10px #72ccff;
+}
+
+kbd {
+    color: rgb(255, 166, 181);
+    font-family: "Times New Roman";
+    font-size: 47px;
+}
+
+.sound {
+    font-size: 18px;
+    color: rgb(255, 248, 209);
+    padding-top: 3px;
+}
+
+
+
